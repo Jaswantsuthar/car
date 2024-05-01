@@ -1,0 +1,43 @@
+.hide{
+    display:none;
+}
+.car,.enemy{
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    width: 50px;
+    height: 100px;
+    background-color: red;
+}
+.gameArea{
+    background-color: black;
+    width: 350px;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.divider{
+    position: absolute;
+    height: 100px;
+    width: 10px;
+    background-color: white;
+    margin-left: 170px;
+}
+.score{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+    height: 30px;
+    background-color: red;
+}
+.startScreen{
+    margin-top: 20px ;
+    font-family: 'Times New Roman', Times, serif;
+  
+    padding-top: 30px;
+    text-align: center;
+    height: 60px;
+    background-color: red;
+}
